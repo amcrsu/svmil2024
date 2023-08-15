@@ -1,0 +1,3 @@
+@foreach($guarnicaoList as $guarnicao)
+                                        <option value="{{$guarnicao->guarnicao}}">{{ (isset($guarnicao->guarnicao)) ? $guarnicao->guarnicao : $guarnicao->guarnicao}}</option>
+                                    @endforeach
