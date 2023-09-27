@@ -41,10 +41,10 @@
             </div>
             <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="media">
-                    <div class="media-left media-top">
+                    <div class="media-left media-top hide">
                         <i class="fa fa-user-md icon"></i>
                     </div>
-                    <div class="media-body">
+                    <div class="media-body hide">
                         <h4 class="media-heading">ACESSO AO CANDIDATO</h4>
                         <p>Ainda não fez sua inscrição ? Clique no botão abaixo para fazê-la.</p>
                       <!--  <p class="alert alert-danger" role="alert" style="text-align:center;">INSCRIÇÕES ENCERRADAS!!!</p>   -->

@@ -134,7 +134,7 @@
             </div>
             <hr />
            
-            <button class="btn btn-primary pull-left" {{$disabled == "1" ? "disabled" : ""}} type="button" data-toggle="modal" data-target="#modalConfirmacao"><i class="fa fa-floppy-o" aria-hidden="true"></i> Finalizar Inscrição</button>
+            <button class="btn btn-primary pull-left hide" {{$disabled == "1" ? "disabled" : ""}} type="button" data-toggle="modal" data-target="#modalConfirmacao"><i class="fa fa-floppy-o" aria-hidden="true"></i> Finalizar Inscrição</button>
             <br /><br /><br />
             <!-- Modal -->
             <div class="modal fade" id="modalConfirmacao" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

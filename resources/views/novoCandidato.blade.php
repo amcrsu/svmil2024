@@ -8,12 +8,12 @@
             <form class="form-horizontal" method="POST" action="{{route('register')}}" name="formNovoCandidato" id="formNovoCandidato">
 		<input type="hidden" name="_token" value="{{ csrf_token() }}">
                 {{csrf_field()}}
-                @include('dadosGerais._dadosAcesso')
+                {{-- @include('dadosGerais._dadosAcesso')
                 @include('dadosGerais._dadosProcesso')
                 @include('dadosGerais._dadosGerais')
                 @include('dadosGerais._dadosEndereco')
-                @include('dadosGerais._dadosContato')
-                <div class="panel panel-default">
+                @include('dadosGerais._dadosContato') --}}
+                <div class="panel panel-default hide">
                     <div class="panel-heading">
                         <h3 class="panel-title">
                         <i class="fa fa-book" aria-hidden="true"></i> Leitura do Aviso de Seleção
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <hr />
-                <button id="btnSalvar" class="btn btn-primary pull-right" type="submit"><i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar e Prosseguir</button>
+                <button id="btnSalvar" class="btn btn-primary pull-right hide" type="submit"><i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar e Prosseguir</button>
                 <br /><br /><br />
             </form>
         </div>

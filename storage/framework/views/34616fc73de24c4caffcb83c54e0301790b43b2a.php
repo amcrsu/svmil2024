@@ -8,12 +8,8 @@
 		<input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
                 <?php echo e(csrf_field()); ?>
 
-                <?php echo $__env->make('dadosGerais._dadosAcesso', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-                <?php echo $__env->make('dadosGerais._dadosProcesso', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-                <?php echo $__env->make('dadosGerais._dadosGerais', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-                <?php echo $__env->make('dadosGerais._dadosEndereco', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-                <?php echo $__env->make('dadosGerais._dadosContato', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-                <div class="panel panel-default">
+                
+                <div class="panel panel-default hide">
                     <div class="panel-heading">
                         <h3 class="panel-title">
                         <i class="fa fa-book" aria-hidden="true"></i> Leitura do Aviso de Seleção
@@ -34,7 +30,7 @@
                     </div>
                 </div>
                 <hr />
-                <button id="btnSalvar" class="btn btn-primary pull-right" type="submit"><i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar e Prosseguir</button>
+                <button id="btnSalvar" class="btn btn-primary pull-right hide" type="submit"><i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar e Prosseguir</button>
                 <br /><br /><br />
             </form>
         </div>
